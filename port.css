@@ -26,31 +26,38 @@
   width: 80%;
 }
 
-.SkillsText.card {
-  height: 280px;
-  cursor: pointer;
-}
-
-.SkillsIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
-}
-
 .card img {
   max-width: 100%;
 }
 
-.card-title {
+.SkillsText.card {
+  height: 60px;
+  cursor: pointer;
+}
+
+.SkillsIcon {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.skltitile {
   text-align: center;
 }
 
-.card:hover .SkillsIcon {
+.card:hover.SkillsIcon {
   color: #008000;
 }
 
 .SkillsText:hover {
   border: 1px solid #008000;
+}
+
+.bg-image {
+  background-image: url("./Image/Codebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .navbarScroll.navbarDark {
